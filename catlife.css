@@ -6,8 +6,8 @@ html, body {
   
   img {
     margin: 10px auto;
-    height: auto;
-    width: auto;
+    max-height: 25%;
+    max-width: 25%;
   }
   
   ul {
@@ -30,7 +30,7 @@ html, body {
   }
   
   .main {
-      background-color: #ffc200;
+      background-color: rgb(5, 82, 5);
   }
   
   /*Header Section*/
@@ -66,7 +66,7 @@ html, body {
   }
   
   .jumbotron h2 span {
-    color:#ffc200;
+    color:#720688;
   }
   
   .jumbotron p {
@@ -86,7 +86,7 @@ html, body {
   
   /*Expertise Section*/
   .cards {
-    background-color: #ffc200;
+    background-color: #3e0f47;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
