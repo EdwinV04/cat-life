@@ -6,8 +6,9 @@ html, body {
   
   img {
     margin: 10px auto;
-    max-height: 25%;
-    max-width: 25%;
+    max-height: 50%;
+    max-width: 50%;
+    ;
   }
   
   ul {
@@ -22,6 +23,7 @@ html, body {
   
   .container {
     margin: 0 auto;
+    
   }
   
   .spacer {
@@ -87,17 +89,45 @@ html, body {
   /*Expertise Section*/
   .cards {
     background-color: #3e0f47;
-    display: flex;
+    display: inline-flex;
     flex-wrap: wrap;
     justify-content: space-around;
+    flex-direction: row;
   
   }
   
-  .col {
+  .col1 {
     display: inline-flex;
-    flex-direction: column;
-    justify-content: space-between;
+    flex-direction: row;
+    justify-content: center;
+    max-width: ;
   }
+  .col2 {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 50%;
+  }  
+  .col3 {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: space-around;
+    max-width: 50%;
+  }
+  .col4 {
+    display: inline-flex;
+    flex-direction: row;
+    justify-content: wrap;
+    max-width: 50%;
+    ;
+
+  }
+    .col5 {
+      display: inline-flex;
+      flex-direction: row;
+      justify-content: center;
+      
+    }
   
   #expertise {
     padding: 20px;
